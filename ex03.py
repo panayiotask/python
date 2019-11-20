@@ -30,8 +30,7 @@ print(forward)
 print(backward)
 
 forward.reverse() #reverse order
-print(forward)
-print(backward)
+print(forward == backward)
 
 # 4
 countries=['uk','usa','uk','uae']
