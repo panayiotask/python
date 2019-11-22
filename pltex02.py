@@ -14,3 +14,13 @@ ax2.plot(t, temp, 'r--')
 ax2.set_ylabel("Temp (degC)")
 plt.show()
 plt.savefig('co2_temp_2.pdf')
+
+# 2
+plt.subplot(1,3,1)
+plt.plot(range(0,10,1))
+plt.subplot(1,3,2)
+plt.plot(range(10,0,-1))
+plt.subplot(1,3,3)
+z=[4]*10
+plt.plot(z)
+plt.show()
